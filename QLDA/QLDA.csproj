@@ -146,18 +146,21 @@
     <Compile Include="Models\DatHang_ChiTiet.cs">
       <DependentUpon>QuanLiDoAn.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\GioHangModels.cs" />
     <Compile Include="Models\HangSX.cs">
       <DependentUpon>QuanLiDoAn.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\KhachHang.cs">
       <DependentUpon>QuanLiDoAn.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\KhachHangModels.cs" />
     <Compile Include="Models\LoaiSua.cs">
       <DependentUpon>QuanLiDoAn.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\NhanVien.cs">
       <DependentUpon>QuanLiDoAn.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\NhanVienModels.cs" />
     <Compile Include="Models\QuanLiDoAn.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -176,6 +179,7 @@
     <Compile Include="Models\Sua.cs">
       <DependentUpon>QuanLiDoAn.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\SuaModle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
